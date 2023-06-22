@@ -6,6 +6,11 @@ import Link from 'next/link'
 import Image from 'next/image'
 import React from 'react'
 import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg"
+import OdooImage from "../../public/images/projects/Odoo.png"
+import AutomateImage from "../../public/images/projects/Automate.jpg"
+import HelpdeskImage from "../../public/images/projects/Helpdesk.jpg"
+import NextjsImage from "../../public/images/projects/Nextjs.png"
+import DialogFlowImage from "../../public/images/projects/dialogflowlogo.jpg"
 import {motion} from 'framer-motion'
 import TransitionEffect from '@/components/TransitionEffect'
 
@@ -62,7 +67,7 @@ const Project = ({title,type,img,link,github}) => {
                 </Link>
                 <div className='w-full mt-2 flex items-center justify-between'>
                     <Link href={link} target="_blank" className='text-lg font-semibold underline md:text-base'> Visit</Link>
-                    <Link href={link} target="_blank" className='w-8 md:w-6'> <GithubIcon /></Link>
+                    <Link href={github} target="_blank" className='w-8 md:w-6'> <GithubIcon /></Link>
                 </div>
             </div>
         </article>
@@ -79,66 +84,63 @@ const projects = () => {
         <TransitionEffect />
         <main className='w-full mb-16 flex flex-col items-center justify-center dark:text-light'>
             <Layout className='pt-16'>
-                <AnimatedText text="Imagination Trumps Knowledge!" className='mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl'/>
+                <AnimatedText text="Imagination Solve Challanges!" className='mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl'/>
                 <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
                     <div className='col-span-12'>
                         <FeaturedProject 
-                        title="Crypto Screener Application"
-                        summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                        It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                        local currency."
-                        img={project1}
+                        title="ERP Odoo Implementation"
+                        summary="Merge from ERP ASPEL to ERP Odoo without lost information, and continue the operation using Account, Invoices,
+                        Selling, Purchases, and Manofacture."
+                        img={OdooImage}
                         link="/"
                         github="/"
-                        type="Featured Project"
+                        type="Business Project"
                         />
                     </div>
                     <div className='col-span-6 sm:col-span-12'>
                         <Project 
-                        title="Crypto Screener Application"
-                        img={project1}
+                        title="Automate Client License Expiration Control by API"
+                        img={AutomateImage}
                         link="/"
                         github="/"
-                        type="Featured Project"
+                        type="Business Project"
                         />
                     </div>
                     <div className='col-span-6 sm:col-span-12'>
                         <Project 
-                        title="Crypto Screener Application"
-                        img={project1}
+                        title="Help Desk Control"
+                        img={HelpdeskImage}
                         link="/"
                         github="/"
-                        type="Featured Project"
+                        type="Business Project"
                         />
                     </div>
                     <div className='col-span-12'>
                         <FeaturedProject 
-                        title="Crypto Screener Application"
-                        summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                        It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                        local currency."
-                        img={project1}
+                        title="API Implementations"
+                        summary="Using API with NodeJS (NextJS) to connect lot of customer to a main software."
+                        img={NextjsImage}
                         link="/"
                         github="/"
-                        type="Featured Project"
+                        type="Develop Project"
                         />
                     </div>
                     <div className='col-span-6 sm:col-span-12'>
                         <Project 
-                        title="Crypto Screener Application"
-                        img={project1}
+                        title="Chatbot using DialogFlow"
+                        img={DialogFlowImage}
                         link="/"
-                        github="/"
-                        type="Featured Project"
+                        github="https://github.com/ing-silvestre-garcia/dialogflow-whatsapp"
+                        type="Develop Project"
                         />
                     </div>
                     <div className='col-span-6 sm:col-span-12'>
                         <Project 
-                        title="Crypto Screener Application"
+                        title="Corda Blockchain Project"
                         img={project1}
                         link="/"
-                        github="/"
-                        type="Featured Project"
+                        github="https://github.com/ing-silvestre-garcia/corda4"
+                        type="Develop Project"
                         />
                     </div>
                 </div>
