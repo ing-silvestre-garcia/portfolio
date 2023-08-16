@@ -31,12 +31,12 @@ const Skills = () => {
                 whileHover={{scale:1.05}}>
                     Technology
                 </motion.div>
-                <Skill name="Odoo" x="-30vw" y="-5vw" />
-                <Skill name="ERP" x="-21vw" y="8vw" />
-                <Skill name="KPI" x="-28vw" y="3vw" />
-                <Skill name="Docker" x="-10vw" y="-2vw" />
+                <Skill name="Odoo Implementation" x="-30vw" y="-5vw" />
+                <Skill name="ERP Implementation" x="-21vw" y="8vw" />
+                <Skill name="KPI Management" x="-28vw" y="3vw" />
+                <Skill name="Google Sheet automation" x="-10vw" y="-2vw" />
                 <Skill name="Project Planning" x="-18vw" y="-8vw" />
-                <Skill name="Automate Process" x="-15vw" y="18vw" />
+                <Skill name="Automate Processes" x="-15vw" y="18vw" />
                 <Skill name="GIT" x="15vw" y="18vw" />
                 <Skill name="AWS" x="-3vw" y="-15vw" />
                 <Skill name="SCRUM" x="20vw" y="-15vw" />
