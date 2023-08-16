@@ -34,20 +34,22 @@ const Skills = () => {
                 <Skill name="Odoo Implementation" x="-30vw" y="-5vw" />
                 <Skill name="ERP Implementation" x="-21vw" y="8vw" />
                 <Skill name="KPI Management" x="-28vw" y="3vw" />
-                <Skill name="Google Sheet automation" x="-10vw" y="-2vw" />
-                <Skill name="Project Planning" x="-18vw" y="-8vw" />
+                <Skill name="Google Sheet automation" x="15vw" y="-1vw" />
+                <Skill name="Project Planning" x="-15vw" y="-4vw" />
                 <Skill name="Automate Processes" x="-15vw" y="18vw" />
-                <Skill name="GIT" x="15vw" y="18vw" />
-                <Skill name="AWS" x="-3vw" y="-15vw" />
-                <Skill name="SCRUM" x="20vw" y="-15vw" />
+                <Skill name="GIT Knowledge" x="15vw" y="18vw" />
+                <Skill name="AWS Services" x="-5vw" y="-20vw" />
+                <Skill name="ChatBot Implementation" x="1vw" y="-5vw" />
+                <Skill name="Social Media Link" x="-5vw" y="-20vw" />
+                <Skill name="SCRUM Implementation" x="20vw" y="-15vw" />
                 <Skill name="Clean code" x="10vw" y="-20vw" />
-                <Skill name="UML" x="20vw" y="-6vw" />
-                <Skill name="GCP" x="20vw" y="6vw" />
-                <Skill name="API" x="30vw" y="15vw" />
-                <Skill name="Wordpress" x="0vw" y="12vw" />
-                <Skill name="Software Dev" x="-20vw" y="-15vw" />
+                <Skill name="UML Knowledge" x="20vw" y="-6vw" />
+                <Skill name="GCP Services" x="20vw" y="6vw" />
+                <Skill name="API Knowledge" x="30vw" y="15vw" />
+                <Skill name="Wordpress Implementation" x="0vw" y="12vw" />
+                <Skill name="Software Develop" x="-20vw" y="-12vw" />
                 <Skill name="Web Design" x="32vw" y="-5vw" />
-                <Skill name="Firebase" x="5vw" y="-10vw" />
+                <Skill name="Firebase Knowledge" x="5vw" y="-13vw" />
             </div>
         </>
     )

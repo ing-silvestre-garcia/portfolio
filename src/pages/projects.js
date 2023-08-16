@@ -99,16 +99,16 @@ const projects = () => {
                     </div>
                     <div className='col-span-6 sm:col-span-12'>
                         <Project 
-                        title="Automate Client License Expiration Control by API"
+                        title="Automate Email Sender in Google Sheet by Code Extension"
                         img={AutomateImage}
                         link="/"
-                        github="/"
+                        github="https://github.com/ing-silvestre-garcia/email-sender-google-sheet/tree/main"
                         type="Business Project"
                         />
                     </div>
                     <div className='col-span-6 sm:col-span-12'>
                         <Project 
-                        title="Help Desk Control"
+                        title="Automate Help Desk Control using Jira and AI"
                         img={HelpdeskImage}
                         link="/"
                         github="/"
@@ -117,12 +117,21 @@ const projects = () => {
                     </div>
                     <div className='col-span-12'>
                         <FeaturedProject 
-                        title="API Implementations"
+                        title="Customer API Implementations"
                         summary="Using API with NodeJS (NextJS) to connect lot of customer to a main software."
                         img={NextjsImage}
                         link="/"
                         github="/"
                         type="Develop Project"
+                        />
+                    </div>
+                    <div className='col-span-6 sm:col-span-12'>
+                        <Project 
+                        title="Automate Client License Expiration Control by API"
+                        img={AutomateImage}
+                        link="https://www.pegasus.com.mx/en"
+                        github="/"
+                        type="Business Project"
                         />
                     </div>
                     <div className='col-span-6 sm:col-span-12'>
